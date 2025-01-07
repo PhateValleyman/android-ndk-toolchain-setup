@@ -7,13 +7,15 @@ branding:
 inputs:
   api:
     description: 'Android API'
-    default: '21'
+    default: '33'
     required: true
   arch:
     description: 'Platform arch'
+    default: 'aarch64'
     required: true
   install-location:
     description: 'Path to use for NDK toolchain'
+    default: '/data/data/com.termux/files/home/lib/android-ndk'
     required: true
   force:
     description: 'Force install toolchain'
